@@ -1,0 +1,68 @@
+body{
+    background-color: #ffd6ce;
+}
+#hero{
+    display: flex;
+    min-height: 400px;
+    max-width: 100%;
+    background-image: url('../deafío5/assets/fondohero5.png');
+    background-size: cover;
+    background-position: center;
+}
+#hero h1{
+    width: 378px;
+    padding-top: 137px;
+    font-size: xx-large;
+}
+#cards{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#card{
+    padding: 10px;
+    border-radius: 45px;
+}
+#radio{
+    border-radius: 45px;
+}
+#cardboton{
+    background-color: #ff9488;
+}
+
+#gallery img{
+    width: auto;
+    height: auto;
+    border-radius: 198px;
+}
+#gallery img:hover{
+    border: solid 5px #ff9488;
+}
+.col-sm-3{
+    width: 300px;
+}
+#formi{
+    flex-wrap: wrap;
+    display: flex;
+}
+.col.md-6{
+    margin: 10px;
+}
+#icons{
+    width: 40px;
+    margin: 50px;
+    margin-top: 20px;
+    color: aquamarine;
+}
+#icono{
+    flex-shrink: unset;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#footerow{
+    flex-wrap: nowrap;
+}
